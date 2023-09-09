@@ -86,7 +86,7 @@ def image_to_dataframe(file):
     img = cv.imread(file)
 
     # Path to OCR
-    pytesseract.pytesseract.tesseract_cmd = r'D:\Program Files\Tesseract-OCR\tesseract'
+    pytesseract.pytesseract.tesseract_cmd = r'PATH_GOES_HERE'
     # create dataframe
     df = pd.DataFrame(columns=['player', 'kills', 'deaths', 'assists'])
 
